@@ -10,3 +10,21 @@
 // ? (inline conditional statement)
 
 // Conditionals are a core part of writing dynamic and interactive code
+
+// IF statement
+
+// The if statement evaluates a condition, and if the result is "true" it executes the block of code
+
+/* Syntax of an if statement
+
+    if (condition) {
+        // code to run if condition is true
+    }
+
+*/
+
+let year = 2025;
+
+if (year == 2025) {
+  console.log("The year is 2025!"); // The year is 2025! (year == 2025 is true)
+}
