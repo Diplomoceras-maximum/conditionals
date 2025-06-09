@@ -87,3 +87,61 @@ if (score >= 90) {
 }
 
 // Else if statements are used to copare a single variable against multiple ranges or values, with no need for multiple stand alone if statements
+
+// Switch Statements
+
+// A switch statement compares a single value against multiple possible cases, an alternative to long else if statements.
+// A switch evalautes an expression and executes code based on the matching case value, best for fixed values.
+
+/* Syntax of a switch statement
+
+    switch (expression) {
+        case value1:
+            // code block for value1
+            break;
+        case value2:
+            // code block for value2
+            break;
+        case value3:
+            // code block for value3
+            break;
+        default:
+            // code block if no cases match
+    }
+
+*/
+
+// The expression is evaluated once and is compared with each case value
+// If a match is found it funs the associated block, the break statement stops further case checks
+// If no match is found, the dafault block runs
+
+let day = 3;
+let dayName;
+
+switch (day) {
+  case 1:
+    dayName = "Monday";
+    break;
+  case 2:
+    dayName = "Tuesday";
+    break;
+  case 3:
+    dayName = "Wednesday";
+    break;
+  case 4:
+    dayName = "Thursday";
+    break;
+  case 5:
+    dayName = "Friday";
+    break;
+  case 6:
+    dayName = "Saturday";
+    break;
+  case 7:
+    dayName = "Sunday";
+    break;
+  default:
+    dayName = "Invalid day";
+}
+
+console.log(dayName); // Wednesday (day (case) 3 loggs the dayName of Wednesday)
