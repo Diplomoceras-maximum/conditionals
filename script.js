@@ -28,3 +28,28 @@ let year = 2025;
 if (year == 2025) {
   console.log("The year is 2025!"); // The year is 2025! (year == 2025 is true)
 }
+
+// Else Statement
+
+// The if statement evaluates a condition, and if the result is "false" it executes the else block of code
+
+/* Syntax of an else statement
+
+    if (condition) {
+        // code block to be executed if the condition is true
+    } else {
+        // code block to be executed if the condition is false
+    }
+
+*/
+
+let loggedIn = false;
+
+if (loggedIn) {
+  console.log("You are logged in.");
+} else {
+  console.log("Please log in to continue."); // Please log in to continue. (if condiitional is false)
+}
+
+// if loggedIn = true, "You are logged in" will be logged to console
+// if loggedIn = false, "Please log in to continue" will be logged to console
