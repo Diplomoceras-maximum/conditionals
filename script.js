@@ -145,3 +145,24 @@ switch (day) {
 }
 
 console.log(dayName); // Wednesday (day (case) 3 loggs the dayName of Wednesday)
+
+// Ternary Operator
+
+// The ternary operator (? :) is a shortcut for simple else statement
+
+/* Syntax of ternary operator
+
+    condition ? expressionIfTrue : expressionIfFalse;
+
+*/
+
+// condition = test to evaluate
+// expressionIfTrue = runs if the condition is true
+// expressionIfFalse = runs if the condition is false
+
+let mark = 70;
+let result = score > 50 ? "Pass" : "Fail";
+
+console.log(result); // Pass (score is higher than 50 so the expression is true)
+
+// Good for asigning values based on a condition
