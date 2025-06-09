@@ -53,3 +53,37 @@ if (loggedIn) {
 
 // if loggedIn = true, "You are logged in" will be logged to console
 // if loggedIn = false, "Please log in to continue" will be logged to console
+
+// Else If Statement
+
+// Else if statements allow for multiple if statements to check a value against various conditions
+
+/* Syntax of an else if statement
+
+    if (condition1) {
+        // code block if condition1 is true
+    } else if (condition2) {
+        // code block if condition2 is true
+    } else if (condition3) {
+        // code block if condition3 is true
+    } else {
+        // code block if none of the conditions are true
+    }
+
+*/
+
+let score = 70;
+
+if (score >= 90) {
+  console.log("A");
+} else if (score >= 80) {
+  console.log("B");
+} else if (score >= 70) {
+  console.log("C"); // C (each condition is checked in order until conditional match is met)
+} else if (score >= 60) {
+  console.log("D");
+} else {
+  console.log("F");
+}
+
+// Else if statements are used to copare a single variable against multiple ranges or values, with no need for multiple stand alone if statements
